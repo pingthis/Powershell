@@ -1,0 +1,110 @@
+==========================================================
+==========================================================
+[2021-11-19 19:37:22.045] [INFO] DSRegTool 3.5 has started
+[2021-11-19 19:37:22.058] [INFO] Device Name : MTHOMPSONW10
+[2021-11-19 19:37:23.468] [INFO] User Account: intra\adm_thom7010, UPN: adm_thom7010@cameronashleybp.com
+[2021-11-19 19:37:54.928] [INFO] Verify Service Connection Point (SCP) has been chosen
+[2021-11-19 19:37:54.969] [INFO] Testing client-side registry setting for SCP...
+[2021-11-19 19:37:55.032] [INFO] Client-side registry setting for SCP is not configured
+[2021-11-19 19:37:55.036] [INFO] Testing Domain Controller connectivity...
+[2021-11-19 19:37:55.135] [INFO] Test passed: connection to Domain Controller succeeded
+[2021-11-19 19:37:55.141] [INFO] Checking Service Connection Point (SCP)...
+[2021-11-19 19:37:55.386] [INFO] Service Connection Point (SCP) is configured as following:
+[2021-11-19 19:37:55.392] [INFO] azureADName:CameronAshley.onmicrosoft.com azureADId:549ab248-06e0-4025-acb6-91f408ff217f
+[2021-11-19 19:37:55.396] [INFO] Testing Service Connection Point (SCP) configuration...
+[2021-11-19 19:37:55.400] [INFO] Testing Tenant Name...
+[2021-11-19 19:37:55.807] [INFO] Test passed: Tenant Name is configured correctly
+[2021-11-19 19:37:55.811] [INFO] Testing Tenant ID...
+[2021-11-19 19:37:55.815] [INFO] Test passed: Tenant ID is configured correctly
+[2021-11-19 19:37:55.818] [INFO] Script completed successfully.
+==========================================================
+==========================================================
+[2021-11-19 19:38:11.356] [INFO] DSRegTool 3.5 has started
+[2021-11-19 19:38:11.358] [INFO] Device Name : MTHOMPSONW10
+[2021-11-19 19:38:11.779] [INFO] User Account: intra\adm_thom7010, UPN: adm_thom7010@cameronashleybp.com
+[2021-11-19 19:38:13.326] [INFO] Verify the health status of the device option has been chosen
+[2021-11-19 19:38:13.375] [INFO] Checking OS version...
+[2021-11-19 19:38:13.382] [INFO] Device has current OS version.
+[2021-11-19 19:38:14.625] [INFO] Checking if the device joined to the local domain...
+[2021-11-19 19:38:14.685] [INFO] MTHOMPSONw10 device is joined to the local domain: INTRA
+[2021-11-19 19:38:14.688] [INFO] Checking if the device is connected to AzureAD...
+[2021-11-19 19:38:14.742] [INFO] MTHOMPSONw10 device is joined to Azure AD tenant: Cameron Ashley Building Products
+[2021-11-19 19:38:14.744] [INFO] Checking Key provider...
+[2021-11-19 19:38:14.754] [INFO] Certificate key provider configured correctly
+[2021-11-19 19:38:14.760] [INFO] Checking device certificate configuration...
+[2021-11-19 19:38:15.101] [INFO] Checking if there is a valid Access Token...
+[2021-11-19 19:38:15.383] [INFO] There no valid Access Token, please sign-in to get an Access Token
+[2021-11-19 19:38:15.718] [INFO] Device code EHCFMWLZZ  has been copied to the clipboard, please paste it into the opened 'Microsoft Graph Authentication' window, complete the signin, and close the window to proceed.
+                                 Note: If 'Microsoft Graph Authentication' window didn't open,use a web browser to open the page https://microsoft.com/devicelogin and enter the code EHCFMWLZZ to authenticate.
+==========================================================
+==========================================================
+[2021-11-19 19:39:27.407] [INFO] DSRegTool 3.5 has started
+[2021-11-19 19:39:27.408] [INFO] Device Name : MTHOMPSONW10
+[2021-11-19 19:39:27.871] [INFO] User Account: intra\adm_thom7010, UPN: adm_thom7010@cameronashleybp.com
+[2021-11-19 19:39:31.045] [INFO] Verify the health status of the device option has been chosen
+[2021-11-19 19:39:31.079] [INFO] Checking OS version...
+[2021-11-19 19:39:31.082] [INFO] Device has current OS version.
+[2021-11-19 19:39:32.146] [INFO] Checking if the device joined to the local domain...
+[2021-11-19 19:39:32.196] [INFO] MTHOMPSONw10 device is joined to the local domain: INTRA
+[2021-11-19 19:39:32.199] [INFO] Checking if the device is connected to AzureAD...
+[2021-11-19 19:39:32.247] [INFO] MTHOMPSONw10 device is joined to Azure AD tenant: Cameron Ashley Building Products
+[2021-11-19 19:39:32.249] [INFO] Checking Key provider...
+[2021-11-19 19:39:32.258] [INFO] Certificate key provider configured correctly
+[2021-11-19 19:39:32.262] [INFO] Checking device certificate configuration...
+[2021-11-19 19:39:32.276] [INFO] Checking if there is a valid Access Token...
+[2021-11-19 19:39:32.340] [INFO] There no valid Access Token, please sign-in to get an Access Token
+[2021-11-19 19:39:32.635] [INFO] Device code ERR936SRM  has been copied to the clipboard, please paste it into the opened 'Microsoft Graph Authentication' window, complete the signin, and close the window to proceed.
+                                 Note: If 'Microsoft Graph Authentication' window didn't open,use a web browser to open the page https://microsoft.com/devicelogin and enter the code ERR936SRM to authenticate.
+[2021-11-19 19:40:48.841] [INFO] You signed-in successfully, and got an Access Token for user: Mark Thompson, UPN: markthompson@CameronAshleyBP.com
+[2021-11-19 19:40:48.975] [INFO] Testing device status on Azure AD...
+[2021-11-19 19:40:48.977] [INFO] Testing if device exists on Azure AD...
+[2021-11-19 19:40:48.978] [INFO] Test passed: the device object exists on Azure AD
+[2021-11-19 19:40:48.981] [INFO] Testing if device is enabled on Azure AD...
+[2021-11-19 19:40:48.984] [INFO] Test passed: the device is enabled on Azure AD tenant
+[2021-11-19 19:40:48.986] [INFO] Testing device PENDING state...
+[2021-11-19 19:40:48.988] [INFO] Test passed: the device is not in PENDING state
+[2021-11-19 19:40:48.990] [INFO] Checking if device is stale...
+[2021-11-19 19:40:49.004] [INFO] Device is not stale
+[2021-11-19 19:40:49.007] [INFO] Last logon timestamp: 2021-11-11T18:57:35Z UTC, 8 days ago
+[2021-11-19 19:40:49.010] [INFO] Testing device dual state...
+[2021-11-19 19:40:49.044] [INFO] Test passed: The device is not in dual state
+[2021-11-19 19:40:49.046] [INFO] The device is connected to Azure AD as hybrid Azure AD joined, and it is in healthy state
+[2021-11-19 19:40:49.048] [INFO] Script completed successfully.
+==========================================================
+==========================================================
+[2021-11-19 19:40:58.189] [INFO] DSRegTool 3.5 has started
+[2021-11-19 19:40:58.192] [INFO] Device Name : MTHOMPSONW10
+[2021-11-19 19:40:58.613] [INFO] User Account: intra\adm_thom7010, UPN: adm_thom7010@cameronashleybp.com
+[2021-11-19 19:41:13.007] [INFO] Verify Primary Refresh Token (PRT) option has been chosen
+[2021-11-19 19:41:13.055] [INFO] Testing OS version...
+[2021-11-19 19:41:13.059] [INFO] Test passed: device has current OS version (10.0.19043.0)
+[2021-11-19 19:41:14.014] [INFO] Testing if the device is joined to the local domain...
+[2021-11-19 19:41:14.058] [INFO] MTHOMPSONw10 device is joined to the local domain: INTRA
+[2021-11-19 19:41:14.063] [INFO] Testing if the device is Hybrid Azure AD joined...
+[2021-11-19 19:41:14.107] [INFO] MTHOMPSONw10 device is Hybrid Azure AD joined
+[2021-11-19 19:41:14.110] [INFO] Testing Azure AD PRT...
+[2021-11-19 19:41:14.112] [INFO] Test passed: Azure AD PRT is available on this device for the looged on user
+[2021-11-19 19:41:14.117] [INFO] Checking Enterprise PRT...
+[2021-11-19 19:41:14.154] [WARN] MTHOMPSONw10 device does NOT have Enterprise PRT
+[2021-11-19 19:41:14.159] [INFO] Script completed successfully.
+==========================================================
+==========================================================
+[2021-11-19 19:41:16.643] [INFO] DSRegTool 3.5 has started
+[2021-11-19 19:41:16.645] [INFO] Device Name : MTHOMPSONW10
+[2021-11-19 19:41:17.038] [INFO] User Account: intra\adm_thom7010, UPN: adm_thom7010@cameronashleybp.com
+[2021-11-19 19:41:18.812] [INFO] Collect the logs option has been chosen
+[2021-11-19 19:41:18.857] [INFO] Testing if script running with elevated privileges...
+[2021-11-19 19:41:18.875] [ERROR] PowerShell is NOT running with elevated privileges
+[2021-11-19 19:41:18.892] [INFO] Recommended action: Run log collection option with elevated privileges, or otherwise follow the following action plan to collect logs using Feedback Hub:
+                                 - Open Feedback Hub by pressing (Windows key + F)
+                                 - Make sure 'Advanced diagnostics' tab is visible. Otherwise click on settings and select 'Show Advanced Diagnostics age' checkbox
+                                 - Click on Advanced Diagnostics tab
+                                 - Choose 'Default diagnostics' option
+                                 - From 'Select which diagnostic to collect' ropdown list, select 'Security and Privacy' and 'Work or School Account'
+                                 - Click on 'Start recording' when you are ready
+                                 - Repro the issue
+                                 - Click on 'Stop recording'
+                                 - Click on 'File location' to open 'Security and privacy-Work or School-Repro' folder
+                                 - Open latest created Repro folder
+                                 - Share 'diagnostics.zip' compressed file with Microsoft support engineer
+[2021-11-19 19:41:18.895] [INFO] Script completed successfully.
