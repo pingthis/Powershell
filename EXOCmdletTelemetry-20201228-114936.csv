@@ -1,3 +1,0 @@
-Version,Organization,ScriptName,ScriptExecutionGuid,CommandName,CommandParams,RecordCount,SentBytesCount,TotalLatencyMs,ErrorLog
-v2,,ExchangeOnlineManagementBeta.psm1,3c3793d0-7132-405e-950c-d29aa5e4c933,Connect-ExchangeOnline,Credential;EnableErrorReporting;LogDirectoryPath;LogLevel,0,0,0,
-v2,,ExchangeOnlineManagementBeta.psm1,3c3793d0-7132-405e-950c-d29aa5e4c933,Disconnect-ExchangeOnline,,0,0,0,
