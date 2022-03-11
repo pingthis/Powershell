@@ -5,7 +5,7 @@ $email = Get-QuarantineMessage | Select-Object SenderAddress,type,Subject, Messa
 
 if ($Email.count -lt 2) {$email = " NONE FOUND"}
 
-Send-MailMessage -To "Markthompson@cameronashleybp.com"  -From 'quarantine@cameronashleybp.com' -SmtpServer $SMTPServer -Subject 'Quarantined Mail' -Body $email
+Send-MailMessage -To "Markthompson@cameronashleybp.com"  -From 'quarantine@cameronashleybp.com' -SmtpServer $SMTPServer -Subject 'Vendor Invoice Quarantined' -Body $email
 
 
 

@@ -36,4 +36,4 @@ function Get-IsValidEmailAddress
     }
 }
 
-Get-IsValidEmailAddress "thaynes@hbl2.com"
+Get-IsValidEmailAddress "chadmizell@cameronashleybp.com"
