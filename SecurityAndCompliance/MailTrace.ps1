@@ -1,7 +1,7 @@
 Import-Module ExchangeOnlineManagement
-
+$SMTPServer = 'csseg2.cameronbp.com'
 $JobUser = 'markthompson@cameronashleybp.com'
-$eMailAddress = 'service@ringcentral.com'
+$eMailAddress = 'notificacioneswf@arauco.com'
 function Get-IsValidEmailAddress {
     param
     (
@@ -43,7 +43,7 @@ function Connect-EX {
 if (Get-IsValidEmailAddress $eMailAddress) {
     Write-Host "This is a VALID email address"
     Connect-EX $Jobuser
-    $Messages = Get-MessageTrace -RecipientAddress $eMailAddress -StartDate ([datetime]::Now).AddDays(-1) -EndDate ([datetime]::Now) | Out-String
+    $Messages = Get-MessageTrace -RecipientAddress $eMailAddress -StartDate ([datetime]::Now).AddDays(-10) -EndDate ([datetime]::Now) | Out-String
 }
 else {
     write-host "Oh NO! INVALID EMAIL ADDRESS"

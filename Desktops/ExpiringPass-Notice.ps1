@@ -27,12 +27,14 @@ Function NotifyUsers([string] $userName,[string] $eMailAddress, [int] $days, [st
 }
 #Find accounts that are enabled and have expiring passwords and have email addresses
 $users = Get-ADUser -filter {Enabled -eq $True -and PasswordNeverExpires -eq $False -and PasswordLastSet -gt 0} `
- -Properties "Name", "EmailAddress", "msDS-UserPasswordExpiryTimeComputed" | ` Select-Object -Property "Name", "EmailAddress", `
- @{Name = "PasswordExpiry"; Expression = {[datetime]::FromFileTime($_."msDS-UserPasswordExpiryTimeComputed").tolongdatestring() }}
+ -Properties "Name", "EmailAddress", "msDS-UserPasswordExpiryTimeComputed", "Manager", "SamAccountName"  | ` Select-Object -Property "Name", "EmailAddress", `
+ @{Name = "PasswordExpiry"; Expression = {[datetime]::FromFileTime($_."msDS-UserPasswordExpiryTimeComputed").tolongdatestring() }}, "Manager", "SamAccountName"
+ 
 
 foreach ($user in $users) {
-    #write-host $user
-    
+    $userM = Get-ADUser  -filter {Enabled -eq $True -and SamAccountName -eq $userm.SamAccountName} -Properties "EmailAddress" | Select-Object -Property "Name", "EmailAddress"
+    write-host $user.Name  " "  $user.Manager
+    <#
     if ($user.PasswordExpiry -eq $FifteenDayWarnDate) {
         #Write-host "15 Days to go " $user.name
         $days = 15

@@ -1,4 +1,4 @@
-﻿Get-NetAdapter | Select-Object InterfaceAlias , InterfaceIndex
+﻿Get-NetAdapter -| Select-Object InterfaceAlias , InterfaceIndex
  
 Get-DnsClientServerAddress -InterfaceIndex 9
  

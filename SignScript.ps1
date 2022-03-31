@@ -1,6 +1,6 @@
 <#Digitally Sign script with CA Cert#>
 
-$cert=(dir cert:currentuser\my\ -CodeSigningCert)
+$cert=(currentuser\my\ -CodeSigningCert)
 
 $Scriptname = 'C:\Support\Scripts\Desktops\Remove-UnwantedCrap.ps1'
 

@@ -24,6 +24,23 @@ Function Connect-ExchangeOnline {
     
 
         Connect-ExchangeOnline $Username
+        <#
+        $IN_Block_Domain = Get-TransportRule "INBOUND - BLOCK_DOMAIN"
+        $OUT_Force_ENCRYPT = Get-TransportRule "OUTBOUND - FORCE_ENCRYPT"
+        $IN_Bypass_ATP_IP_ADDRESS = Get-TransportRule "INBOUND - BYPASS_ATP-IP_ADDRESS"
+        $IN_Safe_DOMAIN = Get-TransportRule "INBOUND - SAFE_DOMAIN"
+        $OUT_Legal_Disclaimer = Get-TransportRule "OUTBOUND - Legal Disclaimer"
+        $INBOUND_Disclaimer = Get-TransportRule "INBOUND - Disclaimer"
+        #>
+        $TransportR = Get-TransportRule
+        $Result = $TransportR | Out-GridView -PassThru
+        $Result = $Result.SenderIpRanges | Out-GridView -PassThru 
+
+
+
+            <#Identity INBOUND - BYPASS_ATP-IP_ADDRESS SenderIpRanges
+            #>
+
 
         $TransportR = Get-TransportRule "INBOUND - SAFE_DOMAIN"
         #$CDomainN = $TransportR | Select-Object -ExpandProperty SenderDomainIs

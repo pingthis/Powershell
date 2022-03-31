@@ -9,4 +9,4 @@ Send-MailMessage -To "Markthompson@cameronashleybp.com"  -From 'quarantine@camer
 
 
 
-#Disconnect-ExchangeOnline -Confirm:$false
+Disconnect-ExchangeOnline -Confirm:$false
